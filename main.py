@@ -2,10 +2,9 @@ from pyrogram import Client, filters
 from pyrogram.errors import UsernameInvalid, UsernameOccupied, FloodWait, UsernameNotOccupied
 from pyrogram.errors.exceptions.bad_request_400 import UsernameNotOccupied
 from pyrogram.errors import RPCError
-from pyrogram.enums import GiftForResaleOrder
 from pyrogram.enums import ParseMode
 import time,logging
-import asyncio, requests
+import asyncio
 logging.basicConfig(
         level=logging.INFO,       
         format='%(asctime)s | %(levelname)s | %(message)s'
